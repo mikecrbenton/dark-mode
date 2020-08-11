@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import useDarkMode from '../hooks/useDarkMode';
+//import useDarkMode from '../hooks/useDarkMode';
 
 const Navbar = ( {darkMode, toggleMode} ) => {
 
-   // darkMode was not defined - MOVED TO TOP LEVEL
+   // darkMode was not defined in Index.js - MOVED TO TOP LEVEL
    //   const [darkMode, setDarkMode] = useDarkMode(false);
    //   const toggleMode = e => {
    //     e.preventDefault();
